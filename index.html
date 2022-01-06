@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band Baja Barat</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <style>
+        /* css reset */
+        body{
+            font-weight: bold;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(/img/abs-1850926_1920.jpg);
+            font-family:'Baloo Bhai 2','Courier New', Courier, monospace;
+        }
+        .left{
+            position: absolute;
+            left: 34px;
+            top: 20px;
+             display: inline-block;
+            
+        }
+        .left img{
+            width: 136px;
+            filter: invert(100%);
+        }
+        .left div{
+            text-align: center;
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            
+
+        }
+        .mid{
+            display: block;
+            width: 36%;
+            margin: 20px auto;
+            }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 12px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+        .navbar li a:hover, .navbar li a:active{
+            text-decoration: underline;
+            color: grey;
+        }
+        .btn{
+            font-family: 'Baloo Bhai 2','Courier New', Courier, monospace;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(66, 65, 65);
+        }
+        .container{
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+        .formgroup input{
+            font-family: 'Baloo Bhai 2','Courier New', Courier, monospace;
+            text-align: center;
+            display: block;
+            width: 400px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+        .container h1{
+                   text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 100px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+          <img src="/img/weight-1399281_1280.png" alt="">
+          <div>Band baza Barat</div>
+        </div>
+        <div class="mid">
+           <ul class="navbar">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About us</a></li>
+               <li><a href="#">Our services</a></li>
+               <li><a href="#">Contact us</a></li>
+           </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join our program</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
